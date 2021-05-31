@@ -20,7 +20,9 @@ layout: default
                             {{ post.title }}
                         </a>
                     </h2>
+                    {% if post.no_date %}{% else %}
                     <p class="article-date">{{ post.date | date: "%Y-%m-%d" }}</p>
+                    {% endif %}
                 </header>
                 <section>
                     <p>
