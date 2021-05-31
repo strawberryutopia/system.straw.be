@@ -13,14 +13,14 @@ menu_pages:
   category: home
 
 - title: About
-  url: about.html
+  url: about
   show_on_home: False
   icon_name: fas fa-users
   category: about
   tooltip: About
 
 - title: Lucy
-  url: /lucy.html
+  url: /lucy
   show_on_home: True
   image_url: https://pbs.twimg.com/profile_images/1393101417997557765/DkYK-6Sa_400x400.jpg
   icon_name: fas fa-user
@@ -30,7 +30,7 @@ menu_pages:
   description: Instigator of DevOps Shenanigans, Girl Adjacent Who Go, Recreational Procrastinatrix
 
 - title: Ivie
-  url: /ivie.html
+  url: /ivie
   show_on_home: True
   image_url: https://pbs.twimg.com/profile_images/1314898221353914368/UTTQIXKX_400x400.jpg
   icon_name: fas fa-user
@@ -40,7 +40,7 @@ menu_pages:
   description: Yorkshire’s very own manic pixie flower girl
 
 - title: Jesper
-  url: /jesper.html
+  url: /jesper
   show_on_home: True
   image_url: https://pbs.twimg.com/profile_images/1398018481765879810/CYF2Pdv7_400x400.jpg
   icon_name: fas fa-user
@@ -50,7 +50,7 @@ menu_pages:
   description: The Right Dishonourable Jesper von Chaos. Your worst nightmare, UwU
 
 - title: Hol
-  url: /hol.html
+  url: /hol
   show_on_home: True
   image_url: https://pbs.twimg.com/profile_images/1347709619288895488/WeNUR2y-_400x400.jpg
   icon_name: fas fa-user
