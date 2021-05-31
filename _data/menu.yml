@@ -37,7 +37,7 @@ menu_pages:
   category: ivie
   tooltip: Ivie
   pronouns: she/her
-  description: 
+  description: Yorkshire’s very own manic pixie flower girl
 
 - title: Jesper
   url: /jesper.html
@@ -47,7 +47,7 @@ menu_pages:
   category: jesper
   tooltip: Jesper
   pronouns: he/him
-  description: 
+  description: The Right Dishonourable Jesper von Chaos. Your worst nightmare, UwU
 
 - title: Hol
   url: /hol.html
@@ -57,7 +57,7 @@ menu_pages:
   category: hol
   tooltip: Hol
   pronouns: they/them
-  description: 
+  description: Queer Cryptid
 
 menu_contacts:
 - faicon: fab fa-twitter
