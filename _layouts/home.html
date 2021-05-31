@@ -2,6 +2,7 @@
 layout: default
 category: home
 ---
+
 <div class="content-container home">
     
     <h1>
@@ -11,6 +12,10 @@ category: home
         {{ page.title }}
     </h1>
     <p class="page-summary">{{ page.summary }}</p>
+
+    <p class="page-summary">Current Fronter:</p>
+    <iframe src="https://widgets.lmhd.me/fronter/" id="fronter"></iframe>
+
     <div class="category_wrapper">
     {% for menu_item in site.data.menu.menu_pages %}
         {% if menu_item.show_on_home %}
@@ -24,6 +29,9 @@ category: home
                     <a href="{{ menu_item.url | relative_url }}">
                     <h2> {{ menu_item.title }} </h2>
                     </a>
+                    <p>
+                        {{ menu_item.pronouns }}
+                    </p>
                     <p>
                         {{ menu_item.description }}
                     </p>

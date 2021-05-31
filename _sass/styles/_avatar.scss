@@ -10,7 +10,7 @@
     border: 2px solid $p_light;
     overflow: hidden;
     img {
-        height: $avatar-dim;
-        width: $avatar-dim;
+        height: $avatar-dim - 4;
+        width: $avatar-dim - 4;
     }
 }
