@@ -58,8 +58,3 @@ menu_pages:
   tooltip: Hol
   pronouns: they/them
   description: Queer Cryptid
-
-menu_contacts:
-- faicon: fab fa-twitter
-  url: https://twitter.com/StrawbSystem
-  target: _blank
