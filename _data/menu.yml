@@ -1,8 +1,8 @@
-menu_title: Example menu title
-menu_headline: example menu headline
-menu_intro: Hi! This is an example of intro that you could write for your jekyll minimal-categorized theme!
+#menu_title: Strawb System
+#menu_headline: example menu headline
+#menu_intro: System Hub Site for the Strawb System
 show_menu_on_gate_page: False
-minimal_menu: True
+minimal_menu: False
 menu_logo: assets/img/system.jpg
 
 menu_pages:
