@@ -56,6 +56,27 @@ a, p, li {
     font-size: 1.1em;
 }
 
+blockquote {
+    padding-left: 1em;
+    border-left: 6px solid $primary;
+}
+
+table {
+  thead, tbody {
+    th, td {
+      padding: 0.5em;
+    }
+  }
+
+  tr:nth-child(even), th {
+    background: $p_lighter;
+  }
+
+  tr:nth-child(odd) {
+    background: $p_lightest;
+  }
+}
+
 @include mobile {
     body {
         font-size: 15px;
