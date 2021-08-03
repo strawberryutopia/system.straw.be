@@ -22,7 +22,7 @@ menu_pages:
 - title: Lucy
   url: /lucy
   show_on_home: True
-  image_url: https://pbs.twimg.com/profile_images/1393101417997557765/DkYK-6Sa_400x400.jpg
+  image_url: /assets/img/lucy.jpeg
   icon_name: fas fa-user
   category: lucy
   tooltip: Lucy
@@ -32,7 +32,7 @@ menu_pages:
 - title: Ivie
   url: /ivie
   show_on_home: True
-  image_url: https://pbs.twimg.com/profile_images/1314898221353914368/UTTQIXKX_400x400.jpg
+  image_url: /assets/img/ivie.jpeg
   icon_name: fas fa-user
   category: ivie
   tooltip: Ivie
@@ -42,7 +42,7 @@ menu_pages:
 - title: Jesper
   url: /jesper
   show_on_home: True
-  image_url: https://pbs.twimg.com/profile_images/1402313990018109448/MACpo9kt_400x400.jpg
+  image_url: /assets/img/jesper.jpeg
   icon_name: fas fa-user
   category: jesper
   tooltip: Jesper
@@ -52,7 +52,7 @@ menu_pages:
 - title: Hol
   url: /hol
   show_on_home: True
-  image_url: https://pbs.twimg.com/profile_images/1347709619288895488/WeNUR2y-_400x400.jpg
+  image_url: /assets/img/hol.jpeg
   icon_name: fas fa-user
   category: hol
   tooltip: Hol
