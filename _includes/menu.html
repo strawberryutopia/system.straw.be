@@ -7,7 +7,7 @@
                 <li>
                     <a href="{{ menu_item.url | relative_url }}" category="{{ menu_item.category }}" title="{{ menu_item.tooltip }}">
                         {% if menu_item.color %}
-                            <i class="{{ menu_item.icon_name }}" style="color: {{ menu_item.color }}"> </i>
+                            <i class="{{ menu_item.icon_name }}" style="color: {{ menu_item.color }}; -webkit-text-stroke: white medium"> </i>
                         {% else %}
                             <i class="{{ menu_item.icon_name }}"> </i>
                         {% endif %}
@@ -45,7 +45,7 @@
                 <li>
                     <a href="{{ menu_item.url | relative_url }}" category="{{ menu_item.category }}" title="{{ menu_item.tooltip }}">
                         {% if menu_item.color %}
-                            <i class="{{ menu_item.icon_name }}" style="color: {{ menu_item.color }}"> </i>
+                            <i class="{{ menu_item.icon_name }}" style="color: {{ menu_item.color }}; -webkit-text-stroke: white medium"> </i>
                         {% else %}
                             <i class="{{ menu_item.icon_name }}"> </i>
                         {% endif %}
