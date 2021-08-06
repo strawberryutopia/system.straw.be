@@ -24,6 +24,7 @@ menu_pages:
   show_on_home: True
   image_url: /assets/img/lucy.jpeg
   icon_name: fas fa-user
+  color: "#cc0066"
   category: lucy
   tooltip: Lucy
   pronouns: they/them
@@ -34,6 +35,7 @@ menu_pages:
   show_on_home: True
   image_url: /assets/img/ivie.jpeg
   icon_name: fas fa-user
+  color: "#3dd102"
   category: ivie
   tooltip: Ivie
   pronouns: she/her
@@ -44,6 +46,7 @@ menu_pages:
   show_on_home: True
   image_url: /assets/img/jesper.jpeg
   icon_name: fas fa-user
+  color: "#100090"
   category: jesper
   tooltip: Jesper
   pronouns: he/him
@@ -54,6 +57,7 @@ menu_pages:
   show_on_home: True
   image_url: /assets/img/hol.jpeg
   icon_name: fas fa-user
+  color: "#ff2400"
   category: hol
   tooltip: Hol
   pronouns: they/them
