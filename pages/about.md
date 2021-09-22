@@ -124,4 +124,6 @@ That's fine. 🙂
 
 You know how to contact us if you want to ask us anything.
 
+And feel free to ask questions on [this site's GitHub issues](https://github.com/strawberryutopia/system.straw.be/issues)
+
 In time, we'll likely add more to this page, but who knows.
