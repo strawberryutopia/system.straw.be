@@ -46,7 +46,7 @@ In our case, if you've known us for a while, you may have only knowingly interac
 | ---- | -------- | ----------------- |
 | [Lucy](/lucy)     | [they/them](http://pronoun.is/they/.../themself) | Y'all know me.<br>I'm the Extra AF queer DevOps gal-adjacent y'all know and love. |
 | [Ivie](/ivie)     | [she/her](http://pronoun.is/she/her)             | Hi! ^_^<br><br>I've been around since 2010, but I've mostly been hiding away in Headspace until recently.<br>I have to put up with Lucy's shenanigans all the time, so I tend to be more reasonable or practical than them.<br>You may have met me before without even realising it. |
-| [Jesper](/jesper) | [he/him](http://pronoun.is/he/him)               | Don't mess with me. I keep us safe. |
+| [Aurora](/aurora) | [he/him](http://pronoun.is/he/him)               | Don't mess with me. I keep us safe. |
 | [Hol](/hol)       | [they/them](http://pronoun.is/they/.../themself) | Imagine Lucy, only even more ridiculous than usual. If that's somehow possible.<br>I don't front very often. I don't think the world is ready for that yet. 😉 |
 
 

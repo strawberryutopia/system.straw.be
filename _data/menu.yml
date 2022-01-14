@@ -41,16 +41,16 @@ menu_pages:
   pronouns: she/her
   description: Yorkshire’s very own manic pixie flower girl
 
-- title: Jesper
-  url: /jesper
+- title: Aurora
+  url: /aurora
   show_on_home: True
-  image_url: /assets/img/jesper.jpeg
+  image_url: /assets/img/aurora.jpeg
   icon_name: fas fa-user
   color: "#100090"
-  category: jesper
-  tooltip: Jesper
+  category: aurora
+  tooltip: Aurora
   pronouns: he/him
-  description: The Right Dishonourable Jesper von Chaos. Your worst nightmare, UwU
+  description: Jesper Midnite Aurora. Blue hair and pronouns. Your worst nightmare, UwU
 
 - title: Hol
   url: /hol
