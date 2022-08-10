@@ -3,6 +3,7 @@ layout: post
 title: About
 permalink: about
 category: about
+toc: true
 
 ---
 <div class="profile">
@@ -16,12 +17,9 @@ We’re a plural system, and inclusive of all who identify as plural in good fai
 Current Fronter:
 <iframe src="https://widgets.lmhd.me/fronter/" id="fronter"></iframe>
 
-
-
 Content warnings for the below:
 * Discussion of origin
 * Medical terminology (including some outdated terms)
-
 
 
 # What?
