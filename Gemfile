@@ -8,3 +8,7 @@ gem "jekyll"
 gem "webrick"
 #seo
 gem "jekyll-seo-tag", github: "jekyll/jekyll-seo-tag"
+
+
+# Workaround for https://github.com/ffi/ffi/issues/1103
+gem "ffi", "< 1.17.0"
