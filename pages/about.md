@@ -72,9 +72,11 @@ Some plural systems experience amnesia when switching who is fronting, but in ou
 
 In general, it's okay to assume you're talking to Lucy unless you know otherwise.
 
-On Work Slack, for example, we've got something set up to list the current fronter in our Slack name. e.g.
+On Work Slack, for example, we had something set up to list the current fronter in our Slack name. e.g.
 
 > Ivie (Lucy Davinhart)
+
+"had" past-tense, because naturally after a few years, corporate IT policies meant it stopped working. Now there ins't really an obvious way to tell digitally. But like we said... it's _fine_.
 
 If you're talking to us in person (or, let's be honest, on Zoom), you may notice a difference in voice and body language, and over time you may be able to tell who is who from this alone. But don't worry if you can't. We've also got indicators we can use sometimes.
 
