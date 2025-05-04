@@ -25,6 +25,7 @@ twitter:
   username: strawbsystem
   card: summary
 plugins:
+  - jekyll-toc
   - jekyll-seo-tag
 
 # Build settings
@@ -40,3 +41,6 @@ exclude:
   - screenshot.png
   - docs/
   - node_modules
+
+
+excerpt_separator: "<!--more-->"
