@@ -115,7 +115,7 @@ We're not broken, and we don't need "fixing" or to be "cured".
 
 ## How did this happen?
 
-Why do we exist? Again, who knows. Possibly traumagenic (i.e. the result of some sort of trama). Probably mixed origin to be honest (i.e. different reasons for different headmates to exist).
+Why do we exist? Again, who knows. Possibly traumagenic (i.e. the result of some sort of trauma). Probably mixed origin to be honest (i.e. different reasons for different headmates to exist).
 
 Honestly though? We don’t really care why we exist, just that we do.
 
