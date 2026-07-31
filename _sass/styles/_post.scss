@@ -1,7 +1,7 @@
 .post {
     $root: &;
     font-size: 1.2em;
-    color: black;
+    color: var(--site-text-primary);
     @include hyperlink-convention();
     @include mobile{
         font-size: 1em;
@@ -37,9 +37,9 @@
     }
 
     &-content {
-        background: $base-white;
+        background: var(--site-surface);
         padding: 0.2em 2rem 2rem 2rem;
-        border-radius: 10px;
+        border-radius: var(--site-radius-lg);
         @include mobile {
             padding: 0.2em 1.2rem 1.2rem 1.2rem;
         }
@@ -53,11 +53,12 @@
         }
         p {
             margin: 0;
-            color: $p_text;
+            color: var(--site-text-primary);
 
             &#{$root}-metadata {
                 font-size: 0.7em;
                 text-align: center;
+                color: var(--site-text-dimmed);
             }
         }
     }
