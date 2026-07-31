@@ -2,6 +2,12 @@
     $root: &;
     font-size: 1.2em;
     color: var(--site-text-primary);
+
+    // Override global centred uppercase h1/h2 for post pages
+    h1, h2, h3 {
+        text-align: left;
+        text-transform: none;
+    }
     @include hyperlink-convention();
     @include mobile{
         font-size: 1em;
@@ -40,6 +46,11 @@
         background: var(--site-surface);
         padding: 0.2em 2rem 2rem 2rem;
         border-radius: var(--site-radius-lg);
+
+        h1, h2, h3 {
+            text-align: left;
+            text-transform: none;
+        }
         @include mobile {
             padding: 0.2em 1.2rem 1.2rem 1.2rem;
         }
@@ -51,6 +62,7 @@
             padding: 0;
             line-height: 1em;
         }
+        text-align: left;
         p {
             margin: 0;
             color: var(--site-text-primary);
