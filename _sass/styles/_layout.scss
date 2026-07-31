@@ -1,6 +1,6 @@
 main {
-    background-color: $main-bg-color;
-    color: black;
+    background-color: var(--site-bg);
+    color: var(--site-text-primary);
     float: right;
     width: $content-width-desktop;
     min-height: 300px;
@@ -27,7 +27,7 @@ main {
 footer {
     width: 100%;
     text-align: center;
-    color:$p_text;
+    color: var(--site-text-dimmed);
     display: flex;
     justify-content: center;
     font-size: 0.7em;

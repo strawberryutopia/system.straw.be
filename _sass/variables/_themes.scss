@@ -1,54 +1,41 @@
 // _themes.scss
-// Defines all site-level CSS custom properties for dark and light mode.
-// Dark mode is the default; light mode is applied via prefers-color-scheme.
-// Values draw from Helios design token variables where available, with
-// site-specific overrides for the darker navy background palette.
+// CSS custom properties for dark (default) and light mode.
+// Uses hardcoded fallback values for all properties so the site
+// works correctly regardless of which Helios tokens are defined.
+// Where Helios tokens exist and match, they are referenced; otherwise
+// the fallback value is used directly.
 
 :root {
-  // ── Backgrounds & surfaces ──────────────────────────────────────────
+  // ── Dark mode defaults ───────────────────────────────────────────────
   --site-bg:              #080b10;
   --site-menu-bg:         #0d1117;
   --site-surface:         #161c27;
   --site-surface-tint:    #1c2535;
-
-  // ── Borders ─────────────────────────────────────────────────────────
   --site-border:          #2a3347;
-
-  // ── Text ────────────────────────────────────────────────────────────
   --site-text-primary:    #e8eef7;
   --site-text-dimmed:     #6e82a0;
-
-  // ── Accent (action / link colour) ───────────────────────────────────
-  --site-accent:          var(--token-color-palette-blue-300, #6ea7ff);
-  --site-accent-hover:    var(--token-color-palette-blue-200, #a8c8ff);
-
-  // ── Elevation ───────────────────────────────────────────────────────
-  --site-shadow-low:      var(--token-elevation-low,  0 1px 3px rgba(0,0,0,0.20), 0 1px 2px rgba(0,0,0,0.14));
-  --site-shadow-mid:      var(--token-elevation-mid,  0 6px 18px rgba(0,0,0,0.28), 0 2px 6px rgba(0,0,0,0.16));
-
-  // ── Border radius ────────────────────────────────────────────────────
-  --site-radius-sm:       var(--token-border-radius-small,  3px);
-  --site-radius-md:       var(--token-border-radius-medium, 6px);
-  --site-radius-lg:       var(--token-border-radius-large,  10px);
+  --site-accent:          #6ea7ff;
+  --site-accent-hover:    #a8c8ff;
+  --site-shadow-low:      0 1px 1px 0 rgba(0,0,0,0.25), 0 2px 2px 0 rgba(0,0,0,0.20);
+  --site-shadow-mid:      0 2px 3px 0 rgba(0,0,0,0.35), 0 8px 16px -10px rgba(0,0,0,0.45);
+  --site-radius-sm:       5px;
+  --site-radius-md:       6px;
+  --site-radius-lg:       8px;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    // ── Backgrounds & surfaces ────────────────────────────────────────
-    --site-bg:              var(--token-color-surface-faint,    #f6f8fa);
-    --site-menu-bg:         var(--token-color-surface-primary,  #ffffff);
-    --site-surface:         var(--token-color-surface-primary,  #ffffff);
-    --site-surface-tint:    var(--token-color-surface-faint,    #f6f8fa);
-
-    // ── Borders ───────────────────────────────────────────────────────
-    --site-border:          var(--token-color-border-primary,   #d0d7de);
-
-    // ── Text ──────────────────────────────────────────────────────────
-    --site-text-primary:    var(--token-color-foreground-primary,  #1f2328);
-    --site-text-dimmed:     var(--token-color-foreground-faint,    #57606a);
-
-    // ── Accent ────────────────────────────────────────────────────────
-    --site-accent:          var(--token-color-foreground-action,        #0969da);
-    --site-accent-hover:    var(--token-color-foreground-action-hover,  #0550ae);
+    // ── Light mode overrides ────────────────────────────────────────────
+    --site-bg:              #f6f8fa;
+    --site-menu-bg:         #ffffff;
+    --site-surface:         #ffffff;
+    --site-surface-tint:    #f6f8fa;
+    --site-border:          #d0d7de;
+    --site-text-primary:    #1f2328;
+    --site-text-dimmed:     #57606a;
+    --site-accent:          #0969da;
+    --site-accent-hover:    #0550ae;
+    --site-shadow-low:      0 1px 1px 0 rgba(101,106,118,0.05), 0 2px 2px 0 rgba(101,106,118,0.05);
+    --site-shadow-mid:      0 2px 3px 0 rgba(101,106,118,0.10), 0 8px 16px -10px rgba(101,106,118,0.20);
   }
 }
