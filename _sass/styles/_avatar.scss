@@ -7,7 +7,7 @@
     width: $avatar-dim;
     height: $avatar-dim;
     border-radius: 50%;
-    border: 2px solid $p_light;
+    border: 2px solid var(--site-accent);
     overflow: hidden;
     img {
         height: $avatar-dim - 4;

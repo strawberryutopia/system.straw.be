@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: $main-bg-color;
+    background-color: var(--site-bg);
     a {
         display: flex;
         flex: 0 50%;
@@ -14,7 +14,7 @@
         justify-content: center;
         align-items: center;
         box-sizing: border-box;
-        border: 1px solid $base-white;
+        border: 1px solid var(--site-border);
         transition: .5s ease;
         &:hover {
             .category {
@@ -41,14 +41,14 @@
         }
 
         p {
-            color: $p_lightest;
+            color: var(--site-text-primary);
             font-size: 42px;
             font-weight: 700;
             transition: .5s ease;
             opacity: 0;
             position: absolute;
             text-align: center;
-            text-shadow: $dark 3px 3px 3px;
+            text-shadow: #080b10 3px 3px 3px;
             @include mobile {
                 opacity: 1;
             }

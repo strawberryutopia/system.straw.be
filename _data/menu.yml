@@ -1,8 +1,8 @@
 menu_title: Example menu title
 menu_headline: About Us
-menu_intro: Hey, we’re Strawb System (or just Strawb)
+menu_intro: Hey, we're Strawb System (or just Strawb)
 show_menu_on_gate_page: False
-minimal_menu: True
+minimal_menu: False
 menu_logo: /assets/img/system.jpg
 
 menu_pages:

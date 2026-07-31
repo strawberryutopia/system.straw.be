@@ -1,6 +1,7 @@
 .menu {
     $root: &;
-    background-image: linear-gradient(142deg, $dark 0%, $p_darkest 45%, $dark 90%);
+    background-color: var(--site-menu-bg);
+    border-right: 1px solid var(--site-border);
     position: fixed;
     left: 0;
     top: 0;
@@ -12,7 +13,6 @@
     float: left;
     width: $menu-size;
     box-sizing: border-box;
-    border-right: 2px solid $dark;
     
     @include mobile {
         flex-direction: row;
@@ -24,14 +24,54 @@
         box-sizing: border-box;
         height: 100%;
         flex-grow: 1;
+        padding: 0;
+        @include mobile {
+            padding: 0 8px;
+        }
     }
 
-    &-top {
-        padding-left: 3px;
-        padding-right: 3px;
-        @include mobile {
-            padding: 3px 10px 3px 10px;
+    &-profile {
+        border-bottom: 1px solid var(--site-border);
+        padding: 16px 12px;
+
+        &__link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--site-text-primary);
+            &:hover { color: var(--site-text-primary); }
         }
+        &__img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1px solid var(--site-border);
+            flex-shrink: 0;
+        }
+        &__text {
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 13px !important;
+            font-weight: 600 !important;
+            padding: 0 !important;
+            text-align: left !important;
+            text-transform: none !important;
+            letter-spacing: 0 !important;
+            color: var(--site-text-primary) !important;
+        }
+        h2 {
+            font-size: 11px !important;
+            color: var(--site-text-dimmed) !important;
+        }
+    }
+
+    .nav-divider-item {
+        list-style: none;
+        pointer-events: none;
     }
     ul {
         @include mobile {
@@ -39,40 +79,42 @@
             flex-direction: row;
             margin: 0;
         }
-        padding-left: 0px;
+        padding-left: 0;
         li {
             display: flex;
-            height: 50px;
-            justify-content:center;
+            height: 44px;
+            justify-content: flex-start;
             position: relative;
 
             a {
-                align-items:center;
-                color: $p_text;
+                align-items: center;
+                color: var(--site-text-dimmed);
                 cursor: pointer;
                 display: flex;
-                font-weight: 400;
-                justify-content: center;
-                letter-spacing: 1px;
-                line-height: 28px;
+                font-weight: 500;
+                justify-content: flex-start;
+                width: 100%;
+                padding: 0 16px;
+                gap: 10px;
+                letter-spacing: 0;
+                line-height: 44px;
                 &:hover {
-                    font-weight: 900;
-                    color: $p_lighter;
-
+                    color: var(--site-text-primary);
+                    background: var(--site-surface-tint);
                 }
                 &.selected {
-                    color: $primary;
+                    color: var(--site-accent);
 
                     &::before{
                         content: "";
                         display: block;
                         width: 2px;
                         height: 100%;
-                        background-color: $primary;
+                        background-color: var(--site-accent);
                         position: absolute;
                         left: -2px;
                         top: 0px;
-                        box-shadow: $primary 4px 0px 22px;
+                        box-shadow: var(--site-accent) 4px 0px 14px;
                         @include mobile {
                             height: 2px;
                             width: 100%;
@@ -95,17 +137,36 @@
     }
 
     h1 {
-        font-size: 2em;
-        padding: 0.5em;
+        font-size: 1em;
+        font-weight: 600;
+        padding: 0.4em 0;
+        color: var(--site-text-primary);
+        text-transform: none;
+        letter-spacing: 0;
+        text-align: left;
     }
 
     h2 {
-        color: darken($color: $s_text, $amount: 25);
+        color: var(--site-text-dimmed);
         font-weight: 400;
-        font-size: 1.1em;
+        font-size: 0.85em;
         line-height: 1.3;
     }
-    
+
+    .member-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        display: inline-block;
+        flex-shrink: 0;
+        margin-right: 2px;
+    }
+
+    .nav-divider {
+        border: none;
+        border-top: 1px solid var(--site-border);
+        margin: 6px 12px;
+    }
 
     &-contact {
         display:flex;
@@ -129,7 +190,7 @@
             }
         }
         a {
-            color: $p_text;
+            color: var(--site-text-dimmed);
             cursor:pointer;
             text-align:left;
             text-size-adjust:100%;
@@ -137,8 +198,7 @@
             margin-left: 4px;
             margin-right: 4px;
             &:hover {
-                font-weight: 900;
-                color: $p_lighter;
+                color: var(--site-text-primary);
             }
         }
     }
@@ -147,6 +207,7 @@
 .is-minimal-menu {
     .menu {
         width: $minimal-menu-size;
+        border-right: 1px solid var(--site-border);
         @include mobile {
             height: $minimal-menu-size;
             width: 100%;
