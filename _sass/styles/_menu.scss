@@ -79,22 +79,25 @@
             flex-direction: row;
             margin: 0;
         }
-        padding-left: 0px;
+        padding-left: 0;
         li {
             display: flex;
-            height: 50px;
-            justify-content:center;
+            height: 44px;
+            justify-content: flex-start;
             position: relative;
 
             a {
-                align-items:center;
+                align-items: center;
                 color: var(--site-text-dimmed);
                 cursor: pointer;
                 display: flex;
                 font-weight: 500;
-                justify-content: center;
+                justify-content: flex-start;
+                width: 100%;
+                padding: 0 16px;
+                gap: 10px;
                 letter-spacing: 0;
-                line-height: 28px;
+                line-height: 44px;
                 &:hover {
                     color: var(--site-text-primary);
                     background: var(--site-surface-tint);

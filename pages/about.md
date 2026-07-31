@@ -13,13 +13,6 @@ Hey, we’re Strawb System (or just Strawb).
 
 We’re a plural system, and inclusive of all who identify as plural in good faith.
 
-Current Fronter:
-<iframe src="https://widgets.lmhd.me/fronter/" id="fronter"></iframe>
-
-*Note: The API for this widget is currently not working, so it probably doesn't show anything right now.*
-
-
-
 Content warnings for the below:
 * Discussion of origin
 * Medical terminology (including some outdated terms)
