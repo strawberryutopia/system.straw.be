@@ -1,27 +1,6 @@
 # system.straw.be
 
-Hub site for the **Strawb System** — a plural system of four headmates sharing one physical body.
-
-Live at [system.straw.be](https://system.straw.be)
-
----
-
-## What is this?
-
-We're a plural system. If you're not sure what that means, [MoreThanOne.info](https://morethanone.info/) is a good starting point, or see the [About page](https://system.straw.be/about) on the site itself.
-
-This repo is the source for our system hub — a place to introduce each of us, link to our stuff, and point people to resources.
-
----
-
-## Members
-
-| Name | Pronouns | |
-|------|----------|-|
-| Lucy | they/them | [lucy.davinhart.me](https://lucy.davinhart.me) |
-| Ivie | she/her | |
-| Aurora | he/him | |
-| Hol | they/them | |
+Hub site for the Strawb System. Live at [system.straw.be](https://system.straw.be)
 
 ---
 
@@ -29,10 +8,10 @@ This repo is the source for our system hub — a place to introduce each of us, 
 
 - **[Jekyll](https://jekyllrb.com/)** static site generator (Ruby)
 - **SCSS** for styling, built by Jekyll
-- **[Helios design tokens](https://helios.hashicorp.design/)** via CDN for colours, typography, elevation
+- **[HashiCorp Helios design tokens](https://helios.hashicorp.design/)** via CDN for colours, typography, elevation — not because it needs them, but because it was an amusing idea
 - **[Inter](https://fonts.google.com/specimen/Inter)** font via Google Fonts
 - **[Netlify](https://netlify.com)** for deployment (auto-deploys on push to `master`)
-- Based on the **[minimal-categorized](https://github.com/ItsMeaga1n/minimal-categorized)** Jekyll theme
+- Originally based on the **[minimal-categorized](https://github.com/ItsMeaga1n/minimal-categorized)** Jekyll theme — though there's basically nothing left of it at this point
 
 ---
 
@@ -45,22 +24,7 @@ bundle exec jekyll serve
 
 Then open [http://localhost:4000](http://localhost:4000).
 
-Requires Ruby 3.3 (see `.ruby-version` or `netlify.toml`).
-
----
-
-## Site structure
-
-| Path | File | Purpose |
-|------|------|---------|
-| `/` | `index.md` | Home page — member card grid |
-| `/about` | `pages/about.md` | What plurality is, who we are, FAQ |
-| `/lucy` | `pages/lucy.html` | Lucy's hub — links and content |
-| `/ivie` | `pages/ivie.html` | Ivie's page |
-| `/aurora` | `pages/aurora.html` | Aurora's page |
-| `/hol` | `pages/hol.html` | Hol's page |
-
-Navigation, member colours, and pronouns are configured in [`_data/menu.yml`](_data/menu.yml).
+Requires Ruby 3.3 (pinned in `netlify.toml`).
 
 ---
 
@@ -93,9 +57,3 @@ Pushes to `master` automatically deploy to Netlify. Build config is in [`netlify
   command = "bundle exec jekyll build"
   publish = "_site"
 ```
-
----
-
-## Theme attribution
-
-Based on [minimal-categorized](https://github.com/ItsMeaga1n/minimal-categorized) by [@ItsMeaga1n](https://github.com/ItsMeaga1n), MIT licensed. Substantially customised.
