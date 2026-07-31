@@ -12,6 +12,3 @@ gem "jekyll-seo-tag", github: "jekyll/jekyll-seo-tag"
 
 # Workaround for https://github.com/ffi/ffi/issues/1103
 gem "ffi", "< 1.17.0"
-
-# csv was removed from Ruby 3.4 default gems
-gem "csv"
